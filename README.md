@@ -7,6 +7,7 @@ There are only 6 accounts used in this application.  Each time the budget is sav
 the backup folder and the current totals are saved in the budget_data.txt file.
 
 Commands:
+
 1) view balances
 
 2) expense [account] [amount]
