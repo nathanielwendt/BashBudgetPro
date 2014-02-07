@@ -8,9 +8,13 @@ the backup folder and the current totals are saved in the budget_data.txt file.
 
 Commands:
 1) view balances
+
 2) expense [account] [amount]
+
 3) transfer [fromAcct] [toAcct] [amount]
+
 4) save
+
 5) exit
 
 
