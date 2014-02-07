@@ -4,7 +4,7 @@ BashBudgetPro
 A simple budgeting application that is run entirely by a bash script.
 
 There are only 6 accounts used in this application.  Each time the budget is saved, a backup is made in
-the backup folder and the current totals are saved in the budget_data.txt file.
+the backup folder and the current totals are saved in the budget_data.txt file.  Simply run the script in a Unix terminal to start the program.
 
 Commands:
 
