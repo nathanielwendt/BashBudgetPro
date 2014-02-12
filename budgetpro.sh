@@ -1,15 +1,5 @@
 #!/bin/bash
 
-
-#while true; do
-#	read -p "Would you like to exit budgetpro?" input
-#	case $input in
-#		[Yy]* ) echo "still in program"; break;;
-#		[Nn]* ) exit;;
-#		* ) echo "Please answer yes or no.";;
-#	esac
-#done
-
 readFromFile() {
 	content=$(<budget_data.txt)
 	content_arr=$(echo $content | tr "," " ")
@@ -203,6 +193,3 @@ while [[ $input != "exit" ]]; do
 		* ) echo "not a valid command. type help if needed";;
 	esac
 done
-
-
-#getInput "Would you like to exit?" Yy Nn 
